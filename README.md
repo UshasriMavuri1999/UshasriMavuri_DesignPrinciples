@@ -1,6 +1,3 @@
-# UshasriMavuri_DesignPrinciples
-
-
 # Week-3
 ## Design Principles
 
