@@ -13,6 +13,12 @@
 ```sh
 mvn archetype:generate -DgroupId=com.mycompany.calculator -DartifactId=my-calculator -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 ```
+
+### How I Did
+ * To implement ***Calculator*** application I've used **2-tier architecture**.
+ * I've created 2 packages with the names as `com.mycompany.calculator` and `com.mycompany.calculatoroperations` in which I've created 2 classes named as `App.java` and `CalculatorOperations.java` respectively.
+ * Importing calculatoroperations package I've called appropriate method to do any operation.
+
 ### Build the Project
 
 ```sh
